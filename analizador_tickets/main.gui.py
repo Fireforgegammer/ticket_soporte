@@ -1,7 +1,8 @@
-from interface.app import AppAnalisis
+from interface.app import AppSoporteNLP
 
 def main():
-    app = AppAnalisis()
+    print("🚀 Iniciando Interface Gráfica...")
+    app = AppSoporteNLP()
     app.mainloop()
 
 if __name__ == "__main__":
