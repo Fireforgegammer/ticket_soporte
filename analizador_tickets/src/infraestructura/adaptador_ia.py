@@ -45,7 +45,8 @@ class AdaptadorOpenAI:
                         {"role": "user", "content": texto_limpio}
                     ],
                     "stream": False,
-                    "options": {"temperature": 0.1}
+                    "options": {"temperature": 0.1},
+                    "think": False # Aumentamos el límite de tokens para respuestas más largas
                 }
                 # Subimos el timeout a 300s (5 min) para evitar el "Read timed out"
                 response = requests.post(self.url_ollama, json=payload, timeout=300)
