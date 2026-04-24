@@ -1,0 +1,9 @@
+SOPORTE TÉCNICO - REPORTE DE INCIDENCIA
+Usuario: Juan Pérez
+Departamento: Contabilidad
+
+Descripción del problema: 
+Hola, no puedo acceder al software de facturación desde esta mañana. 
+Me sale un error de 'Fallo en la conexión con el servidor'. 
+Es urgente porque hoy cerramos el mes y tenemos 50 facturas pendientes de emitir. 
+He intentado reiniciar el router pero el problema persiste.
